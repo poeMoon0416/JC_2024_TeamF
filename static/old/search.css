@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+header {
+    background-color: gary;
+    padding: 5px;
+    text-align: center;
+}
+
+.login-box {
+    max-width: 300px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.accordion {
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.accordion-button {
+    background-color: #007bff;
+    color: black;
+    padding: 10px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.accordion-content {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.results {
+    margin: 20px;
+}
+
+.results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.results input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup-content input[type="password"] {
+    margin: 10px 0;
+    padding: 5px;
+    width: 50%;
+}
+
+.popup-content button {
+    margin: 5px;
+}
